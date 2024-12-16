@@ -137,7 +137,7 @@
 
 /* Navigation Link */
 .nav-link {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -215,6 +215,7 @@
   align-items: center;
   padding: 10px 20px;
   background-color: #00008b;
+opacity: 90px;
 }
 
 .navbar .logo {
@@ -289,4 +290,14 @@
     display: flex;
   }
 }
+
+
+
+
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px); /* Optional: Adds a blur effect */
+}
+
 
